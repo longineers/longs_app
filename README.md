@@ -1,2 +1,1 @@
-# longs_app
-Longs App
+## About Longs App
