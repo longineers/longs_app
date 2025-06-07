@@ -1,0 +1,32 @@
+# Node and PHP dependencies (will be installed in container)
+node_modules
+vendor
+
+# Git and VCS
+.git
+.gitignore
+
+# Environment files (should be provided at runtime or via secrets)
+.env
+.env.*
+
+# Docker and Compose files (not needed in image)
+docker-compose.yml
+Dockerfile
+
+# Documentation and markdown
+README.md
+*.md
+
+# Tests and development tools
+tests
+.idea
+.vscode
+
+# Logs and cache (should not be baked into image)
+*.log
+storage/*.log
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
