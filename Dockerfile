@@ -33,7 +33,7 @@ COPY . .
 
 # Ensure storage, cache, and database are writable
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache /var/www/database \
-    && chmod -R 775 /var/www/storage /var/www/bootstrap/cache /var/www/database
+    && chmod -R 777 /var/www/storage /var/www/bootstrap/cache /var/www/database
 
 # Copy NGINX and Supervisor configs
 COPY docker/nginx/nginx.conf /etc/nginx/nginx.conf
