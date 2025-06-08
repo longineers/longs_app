@@ -1,5 +1,3 @@
-# README for Longs App
-
 ## Project Overview
 
 Longs App is a Laravel-based web application designed to manage user data and interactions. This project utilizes Docker for containerization, making it easy to set up and run in different environments.
@@ -41,7 +39,7 @@ This project includes a `Dockerfile` and `docker-compose.yml` for easy setup and
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/longineers/longs_app.git
    cd longs_app
    ```
 
