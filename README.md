@@ -1,5 +1,3 @@
-# README for Longs App
-
 ## Project Overview
 
 Longs App is a Laravel-based web application designed to manage user data and interactions. This project utilizes Docker for containerization, making it easy to set up and run in different environments.
@@ -27,7 +25,6 @@ The project is organized as follows:
 
 - **docker/**: Contains Docker-related files.
   - **nginx/**: Contains the Nginx configuration for the Laravel application.
-    - **default.conf**: Nginx server settings and routing directives.
 - **.env**: Environment variables for the Laravel application, including database credentials and application keys.
 - **docker-compose.yml**: Defines the services, networks, and volumes for the Docker containers.
 - **Makefile**: Contains commands for managing Docker containers, simplifying interactions with Docker.
@@ -41,7 +38,7 @@ This project includes a `Dockerfile` and `docker-compose.yml` for easy setup and
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/longineers/longs_app.git
    cd longs_app
    ```
 
@@ -66,7 +63,7 @@ This project includes a `Dockerfile` and `docker-compose.yml` for easy setup and
   - `make up`: Start the application.
   - `make down`: Stop the application.
   - `make migrate`: Run database migrations.
-- Access the application in your browser at `http://localhost:8080/`.
+- Access the application in your browser at: http://localhost:8080/
 
 ## Dependencies
 
