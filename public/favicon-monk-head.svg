@@ -1,0 +1,10 @@
+<!-- favicon-monk-head.svg -->
+<svg viewBox="46 34 28 28" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="60" cy="48" r="14" fill="#F9E4B7" stroke="#E0C48A" stroke-width="2"/>
+  <!-- Smile -->
+  <path d="M54 53 Q60 57 66 53" stroke="#B08B4F" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Eyes (closed) -->
+  <path d="M55 50 Q57 51 59 50" stroke="#B08B4F" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M61 50 Q63 51 65 50" stroke="#B08B4F" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>
