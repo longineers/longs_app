@@ -64,7 +64,7 @@ This project includes a `Dockerfile` and `docker-compose.yml` for easy setup and
   - `make up`: Start the application.
   - `make down`: Stop the application.
   - `make migrate`: Run database migrations.
-- Access the application in your browser at `http://localhost:8080/`.
+- Access the application in your browser at: http://localhost:8080/
 
 ## Dependencies
 
