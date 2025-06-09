@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Longs App</title>
+    <title>Advertiser Manager</title>
     <link rel="icon" type="image/svg+xml" href="{{ asset('favicon-monk-head.svg') }}">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -1525,9 +1525,9 @@
         <main class="flex max-w-[335px] w-full flex-col-reverse lg:max-w-4xl lg:flex-row">
             <div
                 class="text-[13px] leading-[20px] flex-1 p-6 pb-12 lg:p-20 bg-white dark:bg-[#161615] dark:text-[#EDEDEC] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d] rounded-bl-lg rounded-br-lg lg:rounded-tl-lg lg:rounded-br-none">
-                <h1 class="mb-1 font-medium">Welcome to Longs App</h1>
+                <h1 class="mb-1 font-medium">Welcome to Advertiser Manager</h1>
                 <p class="mb-2 text-[#706f6c] dark:text-[#A1A09A]">
-                    This is your starting point for building with <b>Longs App</b>.<br>
+                    This is your starting point for building with <b>Advertiser Manager</b>.<br>
                     Explore the resources below to get the most out of your application.
                 </p>
                 <ul class="flex flex-col mb-4 lg:mb-6">
@@ -1543,7 +1543,7 @@
                             Read the
                             <a href="#" target="_blank"
                                 class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
-                                <span>Longs App Guide</span>
+                                <span>Advertiser Manager Guide</span>
                                 <svg width="10" height="11" viewBox="0 0 10 11" fill="none"
                                     xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5">
                                     <path d="M7.70833 6.95834V2.79167H3.54167M2.5 8L7.5 3.00001" stroke="currentColor"
